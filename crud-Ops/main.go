@@ -107,7 +107,7 @@ func updateMovie(w http.ResponseWriter, r http.Request){
 
 		movies = append(movies, Movie{ID: "1", Isbn: "778224", Title: "Forge Technologies", Director: &Director{FirstName: "iiceekiing", LastName: "Miracle"} });
 
-		movies = append(movies, Movie{ID: "2", Isbn: "2244778", Title: "BlockFuse Labs", Director: &Director{FirstName: "Scarface", LastName: "Joseph"}})
+		movies = append(movies, Movie{ID: "2", Isbn: "2244778", Title: "BlockFuse Labs", Director: &Director{FirstName: "Scarface && Dev Longs", LastName: "Joseph"}})
 
 		fmt.Println(movies[10])
 
